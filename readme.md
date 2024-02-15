@@ -32,3 +32,15 @@ The folder structure is as follows:
     │   │   |  |  ├── <connection-B>
     
 ```
+
+
+## Getting started
+
+```bash
+gh auth login
+gh repo clone https://github.com/koksmat-com/koksmat-mate
+cd koksmat-mate/.koksmat/web
+pnpm install
+pnpm build
+pnpm start
+```
